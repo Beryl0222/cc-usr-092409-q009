@@ -1,11 +1,14 @@
 {
   "name": "clinician-honor-contribution",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "领域事件基础校验",
+  "description": "团队贡献归属、患者同意与公开叙事校正档案",
   "scripts": {
     "test": "node --test",
-    "build": "node --check src/validator.js"
+    "build": "for f in $(find src -name '*.js'); do node --check \"$f\" || exit 1; done"
+  },
+  "exports": {
+    ".": "./src/index.js"
   }
 }

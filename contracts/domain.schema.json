@@ -20,17 +20,33 @@
       "type": "string",
       "enum": [
         "PROFILE_REGISTERED",
-        "CONTRIBUTION_ATTESTED",
+        "NOMINATION_SUBMITTED",
+        "NOMINATION_VOTED",
+        "CONTRIBUTION_DECLARED",
+        "CONTRIBUTION_ACKNOWLEDGED",
+        "EVIDENCE_SUBMITTED",
+        "OFFLINE_CONFIRMATION_RECORDED",
+        "DUPLICATE_MERGED",
+        "EVIDENCE_CONFLICT_FLAGGED",
+        "EVIDENCE_CONFLICT_RESOLVED",
+        "ATTRIBUTION_SUGGESTED",
+        "ATTRIBUTION_ADJUDICATED",
+        "DISPUTE_FILED",
+        "DISPUTE_RESOLVED",
+        "ATTRIBUTION_CORRECTED",
         "CONSENT_GRANTED",
+        "CONSENT_WITHDRAWN",
         "STORY_RELEASED",
-        "ATTRIBUTION_CORRECTED"
+        "STORY_DISPOSITION_APPENDED"
       ]
     },
     "aggregate_type": {
       "type": "string",
       "enum": [
         "nominee_profile",
+        "honor_nomination",
         "contribution_record",
+        "achievement_review",
         "consent_grant",
         "public_story"
       ]

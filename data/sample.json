@@ -1,9 +1,31 @@
 {
-  "event_id": "092108-012-sample-001",
-  "event_type": "PROFILE_REGISTERED",
-  "aggregate_type": "nominee_profile",
-  "aggregate_id": "clinician_honor_contribution-001",
+  "event_id": "092108-012-sample-002",
+  "event_type": "CONTRIBUTION_DECLARED",
+  "aggregate_type": "contribution_record",
+  "aggregate_id": "c-li-night-rescue",
   "occurred_at": "2026-09-20T18:00:00+08:00",
   "version": 1,
-  "summary": "登记医者荣誉贡献档案的首条领域记录"
+  "summary": "李医生就成果 ach-2026-rescue-01 声明贡献：夜间抢救值班医生",
+  "review_id": "review-01",
+  "achievement_id": "ach-2026-rescue-01",
+  "contribution_id": "c-li-night-rescue",
+  "person_id": "p-li",
+  "person_name": "李医生",
+  "role": "夜间抢救值班医生",
+  "duty": "夜间急危重症抢救的一线处置与交班记录",
+  "work_period": {
+    "from": "2026-01-01",
+    "to": "2026-08-31"
+  },
+  "evidence_summary": "值班登记、抢救记录与交班摘要",
+  "co_participants": [
+    {
+      "person_id": "p-wang",
+      "role": "病案改进负责人"
+    },
+    {
+      "person_id": "p-zhao",
+      "role": "长期随访负责人"
+    }
+  ]
 }
