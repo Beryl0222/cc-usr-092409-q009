@@ -21,8 +21,20 @@
       "enum": [
         "PROFILE_REGISTERED",
         "CONTRIBUTION_ATTESTED",
+        "CONTRIBUTION_SUBMITTED",
+        "CONTRIBUTION_CONFIRMED",
+        "PROOF_ATTACHED",
+        "CONTRIBUTION_FLAGGED_FOR_REVIEW",
+        "CONTRIBUTION_ADJUDICATED",
+        "ACHIEVEMENT_REGISTERED",
         "CONSENT_GRANTED",
+        "CONSENT_WITHDRAWN",
         "STORY_RELEASED",
+        "RELEASE_DISPOSITION_APPENDED",
+        "WITHDRAWAL_NOTICE_QUEUED",
+        "WITHDRAWAL_NOTICE_DELIVERED",
+        "OBJECTION_FILED",
+        "OBJECTION_RESOLVED",
         "ATTRIBUTION_CORRECTED"
       ]
     },
@@ -32,7 +44,9 @@
         "nominee_profile",
         "contribution_record",
         "consent_grant",
-        "public_story"
+        "public_story",
+        "achievement",
+        "objection"
       ]
     },
     "aggregate_id": {
